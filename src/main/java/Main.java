@@ -26,7 +26,7 @@ public class Main {
         itemVenda1.setProduto(produto);
         itemVenda1.setQuantidade(200L);
         itemVendaList.add(itemVenda1);
-        var valorSemDesconto = (produto.getPrecoVenda() *(itemVenda1.getQuantidade()/100));
+        var valorSemDesconto = (produto.getPrecoVenda() *((double) itemVenda1.getQuantidade() /100));
         var desconto = (produto.getPrecoVenda() *itemVenda1.getDesconto())* itemVenda1.getDesconto();
         venda.setValorTotal(valorSemDesconto - desconto);
         venda.setFormaPagamento("DEBITO");
