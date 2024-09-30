@@ -1,4 +1,4 @@
-Diagrama de classes:
+## Diagrama de classes:
 
 ![Alt text](images/DiagramaClasseEstoque.png)
 
